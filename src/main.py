@@ -24,7 +24,7 @@ def cria_views(df, spark, query):
 
 
 if __name__ == '__main__':
-    PATH = '/home/ivan/Xpe-Cursos/Engenharia/microdados_enem_2020/DADOS/MICRODADOS_ENEM_2020.csv'
+    PATH = '/Rais/microdados_enem_2020/DADOS/MICRODADOS_ENEM_2020.csv'
     spark = spark_session()
     df = cria_dataframe(spark, PATH)
     query = '''
