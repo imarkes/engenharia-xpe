@@ -3,7 +3,7 @@ from pyspark.sql import functions as F
 
 
 def spark_session():
-    spark = SparkSession.builder.getOrCreate()
+    spark = SparkSession.builder.appName('Trabalho pratico modulo 1').getOrCreate()
     return spark
 
 
